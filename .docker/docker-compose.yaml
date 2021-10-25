@@ -1,0 +1,4 @@
+services:
+  code:
+    build: .docker
+    privileged: true
