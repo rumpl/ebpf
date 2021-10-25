@@ -14,7 +14,8 @@ RUN apt-get update && \
     libelf-dev \
     sudo \
     gcc \
-    git
+    git \
+    vim
 
 # Install Go specific version.
 RUN apt-get install -y wget && \
